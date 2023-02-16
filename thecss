@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .my-list {
+    display: none;
+  }
+  
+  .my-dropdown {
+    display: block;
+  }
+}
