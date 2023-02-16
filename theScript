@@ -1,0 +1,8 @@
+const list = document.querySelector('.my-list');
+const dropdown = document.querySelector('.my-dropdown');
+
+list.querySelectorAll('li').forEach((li) => {
+  const option = document.createElement('option');
+  option.textContent = li.textContent;
+  dropdown.appendChild(option);
+});
